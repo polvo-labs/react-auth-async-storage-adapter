@@ -46,5 +46,6 @@
   },
   "dependencies": {
     "@types/react-native": "^0.60.13"
-  }
+  },
+  "license": "MIT"
 }
