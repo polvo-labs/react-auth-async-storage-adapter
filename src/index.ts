@@ -1,7 +1,7 @@
 import { AsyncStorage } from 'react-native'
 import { StorageAdapter, AuthProviderConfig, User } from '@polvo-labs/react-auth'
 
-export default class AsyncStorageAdapter implements StorageAdapter {
+export class AsyncStorageAdapter implements StorageAdapter {
   async hasUser (config: AuthProviderConfig): Promise<boolean> {
     const user = await AsyncStorage.getItem(`${config.namespace}.user`)
     return !!user
