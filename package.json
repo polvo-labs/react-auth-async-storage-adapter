@@ -1,6 +1,6 @@
 {
   "name": "@polvo-labs/react-auth-async-storage-adapter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index.js",
   "private": false,
   "description": "React Native's AsyncStorage adapter for @polvo-labs/react-auth module",
