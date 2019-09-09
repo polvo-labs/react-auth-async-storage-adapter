@@ -1,4 +1,4 @@
-import { sum } from '../src';
+import { sum } from 'AsyncStorageAdapter.ts';
 
 describe('blah', () => {
   it('works', () => {
